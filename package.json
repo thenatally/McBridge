@@ -6,6 +6,7 @@
   "author": "tally",
   "type": "module",
   "main": "",
+  "bin": "client.js",
   "scripts": {
     "client": "node client.js",
     "server": "node server.js",

@@ -3,7 +3,7 @@ import { WebSocketServer, WebSocket } from 'ws';
 import { v4 as uuidv4 } from 'uuid';
 import { parse } from 'url';
 
-const MINECRAFT_SERVER_HOST = 'localhost';
+const MINECRAFT_SERVER_HOST = '127.0.0.1';
 const MINECRAFT_SERVER_PORT = 25565;
 const wss = new WebSocketServer({ port: 8080 });
 
